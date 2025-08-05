@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Tool Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <p>Welcome to Web Tool Hub!</p>
+    </header>
+    <!--Date and Time Section-->
+    <section>
+        <div class="datetime">
+            <div class="date">
+                <span id="day">Day</span>
+                <span id="month">Month</span>
+                <span id="date">00</span>
+                <span id="year">Year</span>
+            </div>
+            <div class="time">
+                <span id="hour">00</span> :
+                <span id="mins">00</span> :
+                <span id="sec">00</span>
+                <span id="period">AM</span>
+            </div>
+        </div>
+    </section>
+    <!--Apps Section-->
+    <section class="section1">
+        <div class="container">
+            <div class="apps">
+                <div class="app" onclick="location.href='WeatherApp/index.html'">
+                    <img src="weather-img.jpeg" class="app-img">
+                </div>
+                <div class="app" onclick="location.href='TodoList/index.html'">
+                    <img src="todo-img.webp" class="app-img">
+                </div>
+                <div class="app" onclick="location.href='Calculator/index.html'">
+                    <img src="calculator.png" class="app-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div class="container">
+            <div class="apps">
+                <div class="app" onclick="location.href='ImageGallery/index.html'">
+                    <img src="gallery.jpg" class="app-img">
+                </div>
+                <div class="app" onclick="location.href='MusicPlayer/index.html'">
+                    <img src="music.webp" class="app-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

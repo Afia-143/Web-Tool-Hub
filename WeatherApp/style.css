@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: #081b29;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.card{
+    width: 40%;
+    min-width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    margin: 0 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.search{
+    height: 50px;
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.search input{
+    height: 50px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    padding: 10px 180px 10px 10px;
+    font-size: 0.9rem;
+    margin-right: 25px;
+}
+.search button{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 15px;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color: #333;
+    color: white;
+}
+.error{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    display: none;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.weather-icon{
+    height: 250px;
+    margin-top: -30px;
+}
+.temp{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: -20px;
+}
+.city{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7rem;
+    margin-bottom: 10px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.col img{
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+}
+.col p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
